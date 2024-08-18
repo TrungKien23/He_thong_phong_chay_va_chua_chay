@@ -1,0 +1,56 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+dangbaocoi                                                                        0x01C4       2
+nhiet1                                                                            0x01C6       2
+canhbao1                                                                          0x01C8       2
+baochay1                                                                          0x01CA       2
+xulychay1                                                                         0x01CC       2
+baocoi1                                                                           0x01CE       2
+dangbaocoi1                                                                       0x01D0       2
+cht                                                                               0x01D2       2
+pn                                                                                0x01D4       2
+Mang                                                                              0x01D6      20
+_base_y                                                                           0x01EA       4
+_lcd_x                                                                            0x01EE       1
+_lcd_y                                                                            0x01EF       1
+_lcd_maxx                                                                         0x01F0       1
+_seed                                                                             0x01F1       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+nhiet                                                                             R4,R5        2
+canhbao                                                                           R6,R7        2
+baochay                                                                           R8,R9        2
+xulychay                                                                          R10,R11      2
+baocoi                                                                            R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_adc                                                                          0x000DA     14
+nhietdo                                                                           0x000E8     12
+kiemtra                                                                           0x000F4     83
+quetphim                                                                          0x00147    159
+taotre2                                                                           0x001E6     41
+taotre                                                                            0x0020F     39
+hienthichay                                                                       0x00236     70
+htnhiet                                                                           0x0027C     56
+main                                                                              0x002B4    146
+strlen                                                                            0x00346     12
+strlenf                                                                           0x00352     13
+put_buff_G102                                                                     0x0035F     64
+_print_G102                                                                       0x0039F    308
+sprintf                                                                           0x004D3     52
+_lcd_write_nibble_G103                                                            0x00507     37
+_lcd_write_data                                                                   0x0052C     12
+lcd_gotoxy                                                                        0x00538     17
+lcd_clear                                                                         0x00549     14
+lcd_putchar                                                                       0x00557     32
+lcd_puts                                                                          0x00577     17
+lcd_init                                                                          0x00588     48
